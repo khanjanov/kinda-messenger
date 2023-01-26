@@ -1,0 +1,51 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $color_1;
+}
+body {
+  width: 100%;
+  .container {
+    width: 1250px;
+    margin: 0 auto;
+    .wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      &__messenger {
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid burlywood;
+        border-radius: 3px;
+        background-color: $background-color_1;
+        padding: 5px;
+        %text {
+          margin-bottom: 15px;
+          display: block;
+        }
+        textarea {
+          @extend %text;
+        }
+        label {
+          @extend %text;
+          font-size: 16px;
+        }
+        button {
+          @extend %text;
+          width: 20%;
+          float: right;
+          background-color: $background-color_2;
+          border-color: $border-color_1;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

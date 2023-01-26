@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(55, 104, 81);
+}
+
+body {
+  width: 100%;
+}
+body .container {
+  width: 1250px;
+  margin: 0 auto;
+}
+body .container .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+body .container .wrapper__messenger {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid burlywood;
+  border-radius: 3px;
+  background-color: burlywood;
+  padding: 5px;
+}
+body .container .wrapper__messenger button, body .container .wrapper__messenger label, body .container .wrapper__messenger textarea {
+  margin-bottom: 15px;
+  display: block;
+}
+body .container .wrapper__messenger label {
+  font-size: 16px;
+}
+body .container .wrapper__messenger button {
+  width: 20%;
+  float: right;
+  background-color: rgb(98, 206, 233);
+  border-color: rgb(98, 206, 233);
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

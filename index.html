@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>kinda messenger</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="wrapper__messenger">
+                <textarea rows="6" cols="19" placeholder="type here"></textarea>
+                <label>
+                    type of message
+                    <select id="select">
+                        <option value="public">public</option>
+                        <option value="private">private</option>
+                    </select>
+                </label>
+                <label>
+                    notifications
+                    <input name="checkbox" type="checkbox">
+                </label>
+                <div>
+                    <button>send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
